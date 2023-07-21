@@ -1,17 +1,12 @@
-import typer
-
-app = typer.Typer()
+from commands.command_builder import CommandBuilder
 
 
-@app.command()
-def say_bye(name: str):
-    print(f"bye {name}")
+# app = typer.Typer()
 
 
-@app.command()
-def say_hello(name: str):
-    print(f"Hello {name}")
+def main(project_name: str):
+    CommandBuilder().create_dir(project_name).run()
 
 
 if __name__ == "__main__":
-    app()
+    main("tt")

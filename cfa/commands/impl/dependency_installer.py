@@ -3,8 +3,8 @@ from typing import List
 
 import virtualenv
 
-from commands.ICommand import ICommand
-from helpers.logger import logger
+from cfa.commands.ICommand import ICommand
+from cfa.helpers.logger import logger
 
 
 class DependencyInstaller(ICommand):

@@ -1,7 +1,7 @@
 import os
 
-from commands.ICommand import ICommand
-from helpers.logger import logger
+from cfa.commands.ICommand import ICommand
+from cfa.helpers.logger import logger
 
 
 class DirCreator(ICommand):

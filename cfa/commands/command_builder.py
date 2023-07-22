@@ -1,9 +1,9 @@
 from typing import List
 
-from commands.ICommand import ICommand
-from commands.impl.clone_git import GitClone
-from commands.impl.dependency_installer import DependencyInstaller
-from commands.impl.dir_creator import DirCreator
+from cfa.commands.ICommand import ICommand
+from cfa.commands.impl.clone_git import GitClone
+from cfa.commands.impl.dependency_installer import DependencyInstaller
+from cfa.commands.impl.dir_creator import DirCreator
 
 
 class CommandBuilder:

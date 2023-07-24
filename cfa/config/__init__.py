@@ -3,7 +3,7 @@ ENV = "dev"
 
 class DefaultConfig:
     base_git_project = "https://github.com/shaharluftig/base-fastapi-project.git"
-    pip_packages = ["fastapi"]
+    pip_packages = ["fastapi", "pytest", "ruff", "cachetools"]
 
 
 class ProdConfig(DefaultConfig):

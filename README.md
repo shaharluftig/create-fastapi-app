@@ -51,7 +51,6 @@ Once the project is created, navigate to the project directory and start the dev
 ## Project structure
 
 - `app`: This directory contains the main application code.
-    - `__init__.py`: Initializes the FastAPI application.
     - `main.py`: Defines the main FastAPI application, including routes and endpoints.
     - `models`: Directory for data models and Pydantic schemas.
     - `routes`: Directory for organizing different API routes.

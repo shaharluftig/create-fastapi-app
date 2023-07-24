@@ -64,6 +64,11 @@ Once the project is created, navigate to the project directory and start the dev
   etc.).
 
 - `requirements.txt`: Lists the project dependencies needed to run the FastAPI application.
+### Testing
+* `pytest .`
+
+### Linting
+* `ruff .`
 
 ## Contributing
 

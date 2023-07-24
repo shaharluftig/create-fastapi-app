@@ -7,7 +7,7 @@ class DefaultConfig:
 
 
 class ProdConfig(DefaultConfig):
-    git_branch = "master"
+    git_branch = "main"
 
 
 class DevConfig(DefaultConfig):

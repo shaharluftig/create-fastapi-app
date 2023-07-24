@@ -1,4 +1,4 @@
-ENV = "dev"
+ENV = "prod"
 
 
 class DefaultConfig:

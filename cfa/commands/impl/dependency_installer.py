@@ -22,8 +22,8 @@ class DependencyInstaller(ICommand):
         path = os.path.abspath(self.virtualenv_path)
         if os.name == "nt":
             os.system(f"{path}\\venv\\Scripts\\python -m pip install --upgrade pip")
-            os.system(f"{path}\\venv\\Scripts\\python -m pip install {','.join(map(str, self.packages))}")
+            os.system(f"{path}\\venv\\Scripts\\python -m pip install {' '.join(map(str, self.packages))}")
 
         if os.name == "posix":
             os.system(f"{path}\\venv\\bin\\python -m pip install --upgrade pip")
-            os.system(f"{path}\\venv\\bin\\python -m pip install {','.join(map(str, self.packages))}")
+            os.system(f"{path}\\venv\\bin\\python -m pip install {' '.join(map(str, self.packages))}")
